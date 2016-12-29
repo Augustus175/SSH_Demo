@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="spring-aop-3.2.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-aop-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-aspects-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-beans-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-context-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-core-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-expression-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-jdbc-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-orm-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-test-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-tx-3.2.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SSHLib/spring/spring-web-3.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

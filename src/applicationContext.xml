@@ -69,6 +69,10 @@
         </tx:attributes>
     </tx:advice>
 
+    <bean id="userAction" class="cn.itcast.action.UserAction" scope="prototype">
+        <property name="userService" ref="userService"></property>
+    </bean>
+
     <aop:config>
         <aop:advisor advice-ref="txAdvice" pointcut="execution(* cn.itcast.service..*.*(..))"/>
     </aop:config>

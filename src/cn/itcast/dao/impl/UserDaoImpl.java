@@ -15,7 +15,7 @@ public class UserDaoImpl implements UserDao {
     private String hql = "from User";
 
 
-    private void setHibernateTemplate(HibernateTemplate hibernateTemplate)
+    public void setHibernateTemplate(HibernateTemplate hibernateTemplate)
     {
         this.hibernateTemplate = hibernateTemplate;
     }
@@ -30,7 +30,7 @@ public class UserDaoImpl implements UserDao {
 //        return
 
         //this.hibernateTemplate.fin
-        return this.hibernateTemplate.find(hql);
+        return this.hibernateTemplate.find(this.hql);
     }
     public void save(User user)
     {
